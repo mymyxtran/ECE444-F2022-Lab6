@@ -1,0 +1,2 @@
+gunicorn project.app:app
+
