@@ -10,7 +10,7 @@ The pros of this are:
 The cons of this are:
 1. **TDD can slow the development process/Features takes longer to develop**. When the product needs to be launched quickly, then TDD can be a time consuming process. Writing a test on top of writing the implementation code can lead to longer development times. . For short term projects, ranging a few sprints, it can seem like more work than neccessary, but for larger project which are projects that involve double digit sprints, a tech company, Forte Group found that the quality, budget, and speed perspective benefitted more [1](https://fortegrp.com/test-driven-development-benefits/#:~:text=Fewer%20bugs%20and%20errors%20are,quality%20of%20the%20final%20product.).
 2. **TDD can be difficult to maintain**. If the requirements change for a project, then the previous unit test cases written need tto be updated, whiches increases the time spent to integrate a new change to maintain the project. 
-3. **Everyone needs to be aware of what practises to adhere to**. Everyone should know what is expected when using TDD. Since TDD begins before code implementation, it can influence code planning, so everyone needs to understand to adhere to the methodologies associated with TDD.
+3. **Everyone needs to be aware of what practises to adhere to**. Everyone should know what is expected when using TDD. Since TDD begins before code implementation, it can influence code planning, so everyone needs to understand to adhere to the methodologies associated with TDD. It might not be straight forward at first to a developer to focus on single functionality and write tests for these functions, before seeing the code.
 
 ## Project Setup
 $ python3.10 -m venv env
